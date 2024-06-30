@@ -23,6 +23,8 @@ To facilitate research in persona-driven data synthesis, we are initially releas
 We also release a subset of our PERSONA HUB, including:
 * **200,000 personas**
 
+One can also quickly preview these data at [huggingface](https://huggingface.co/datasets/proj-persona/PersonaHub).
+
 ## Citation
 If you find our work useful, please consider citing our paper:
 ```
