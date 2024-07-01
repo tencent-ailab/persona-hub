@@ -1,5 +1,5 @@
-# Scaling Synthetic Data Creation with 1,000,000,000 Personas
-<a href="PersonaHub.pdf"><img src="https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge" height=22.5></a>  <a href="https://huggingface.co/datasets/proj-persona/PersonaHub"><img src="https://img.shields.io/badge/Hugging-Face-yellow?style=for-the-badge" height=22.5></a>
+# [Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://arxiv.org/pdf/2406.20094)
+<a href="https://arxiv.org/pdf/2406.20094"><img src="https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge" height=22.5></a>  <a href="https://huggingface.co/datasets/proj-persona/PersonaHub"><img src="https://img.shields.io/badge/Hugging-Face-yellow?style=for-the-badge" height=22.5></a>
 
 ## Introduction
 We propose a novel persona-driven data synthesis methodology that leverages various perspectives within a large language model (LLM) to create diverse synthetic data. To fully exploit this methodology at scale, we introduce **PERSONA HUB** – a collection of **1 billion diverse personas** automatically curated from web data. These 1 billion personas (~13% of the world's total population), acting as distributed carriers of world knowledge, can tap into almost every perspective encapsulated within the LLM, thereby facilitating the creation of diverse synthetic data at scale for various scenarios. By showcasing PERSONA HUB’s use cases in synthesizing high-quality **mathematical and logical reasoning** problems, **instructions** (i.e., user prompts), **knowledge-rich texts**, **game NPCs** and **tools** (functions) at scale, we demonstrate persona-driven data synthesis is versatile, scalable, flexible, and easy to use, potentially driving a paradigm shift in synthetic data creation and applications in practice, which may have a profound impact on LLM research and development.
@@ -28,9 +28,10 @@ One can also quickly preview these data at [huggingface](https://huggingface.co/
 ## Citation
 If you find our work useful, please consider citing our paper:
 ```
-@article{tencent2024persona,
+@article{tencent2024personahub,
   title={Scaling Synthetic Data Creation with 1,000,000,000 Personas},
   author={{Tencent AI Lab Seattle}},
+  journal={arXiv preprint arXiv:2406.20094},
   year={2024}
 }
 ```
