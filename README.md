@@ -38,7 +38,7 @@ We also release a subset of our PERSONA HUB, including:
 One can also quickly preview these data at [huggingface](https://huggingface.co/datasets/proj-persona/PersonaHub).
 
 ## Run Demo
-One can easily try the demo to synthesize data with PERSONA HUB by running:
+One can try the demo to synthesize data with PERSONA HUB by simply running:
 
 ```
 bash demo_openai_synthesize.sh # using gpt4o to synthesize data with PERSONA HUB
