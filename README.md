@@ -8,7 +8,7 @@
 
 ## News
 
-- \[07/08/2024\] 🚀🚀🚀 Added code to demo persona-driven synthesis using gpt-4o (openai) or open-sourced models (vllm)
+- \[07/08/2024\] 🚀🚀🚀 Added code to <a href="#run-demo">demo</a> persona-driven synthesis using gpt-4o (openai) or open-sourced models (vllm)
 - \[06/30/2024\] 🚀🚀🚀 Initial announcement of the paper and initial release of PERSONA HUB and synthetic data samples
 
 
