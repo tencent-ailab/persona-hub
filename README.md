@@ -2,8 +2,9 @@
 
 <div align="center">
 <a href="https://arxiv.org/pdf/2406.20094"><img src="https://img.shields.io/badge/Paper-arXiv-red";" alt="arXiv"></a>
-<a href="https://huggingface.co/datasets/proj-persona/PersonaHub"><img src="https://img.shields.io/badge/Dataset-Hugging_Face-yellow" alt="Hugging Face"></a>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY_NC_SA_4.0-blue" alt="License"></a>
+<a href="https://huggingface.co/datasets/proj-persona/PersonaHub"><img src="https://img.shields.io/badge/Dataset-%F0%9F%A4%97%20Hugging_Face-yellow" alt="Hugging Face"></a>
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Data%20License-CC_BY_NC_SA_4.0-blue" alt="Data License"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/Code%20License-MIT-blue" alt="Code License"></a>
 </div>
 
 ## News
