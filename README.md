@@ -55,9 +55,9 @@ Note that the data synthesis prompt templates we provide are for reference only.
 ## Citation
 If you find our work useful, please consider citing our paper:
 ```
-@article{tencent2024personahub,
+@article{chan2024scaling,
   title={Scaling Synthetic Data Creation with 1,000,000,000 Personas},
-  author={{Tencent AI Lab Seattle}},
+  author={Chan, Xin and Wang, Xiaoyang and Yu, Dian and Mi, Haitao and Yu, Dong},
   journal={arXiv preprint arXiv:2406.20094},
   year={2024}
 }
