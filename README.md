@@ -1,5 +1,16 @@
 # [Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://arxiv.org/pdf/2406.20094)
-<a href="https://arxiv.org/pdf/2406.20094"><img src="https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge" height=22.5></a>  <a href="https://huggingface.co/datasets/proj-persona/PersonaHub"><img src="https://img.shields.io/badge/Hugging-Face-yellow?style=for-the-badge" height=22.5></a>
+
+<div align="center">
+<a href="https://arxiv.org/pdf/2406.20094"><img src="https://img.shields.io/badge/Paper-arXiv-red";" alt="arXiv"></a>
+<a href="https://huggingface.co/datasets/proj-persona/PersonaHub"><img src="https://img.shields.io/badge/Dataset-Hugging_Face-yellow" alt="Hugging Face"></a>
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY_NC_SA_4.0-blue" alt="License"></a>
+</div>
+
+## News
+
+- \[07/08/2024\] 🚀🚀🚀 Added code to demo persona-driven synthesis using gpt-4o (openai) or open-sourced models (vllm)
+- \[06/30/2024\] 🚀🚀🚀 Initial announcement of the paper and initial release of PERSONA HUB and synthetic data samples
+
 
 ## Introduction
 We propose a novel persona-driven data synthesis methodology that leverages various perspectives within a large language model (LLM) to create diverse synthetic data. To fully exploit this methodology at scale, we introduce **PERSONA HUB** – a collection of **1 billion diverse personas** automatically curated from web data. These 1 billion personas (~13% of the world's total population), acting as distributed carriers of world knowledge, can tap into almost every perspective encapsulated within the LLM, thereby facilitating the creation of diverse synthetic data at scale for various scenarios. By showcasing PERSONA HUB’s use cases in synthesizing high-quality **mathematical and logical reasoning** problems, **instructions** (i.e., user prompts), **knowledge-rich texts**, **game NPCs** and **tools** (functions) at scale, we demonstrate persona-driven data synthesis is versatile, scalable, flexible, and easy to use, potentially driving a paradigm shift in synthetic data creation and applications in practice, which may have a profound impact on LLM research and development.
@@ -24,6 +35,22 @@ We also release a subset of our PERSONA HUB, including:
 * **200,000 personas**
 
 One can also quickly preview these data at [huggingface](https://huggingface.co/datasets/proj-persona/PersonaHub).
+
+## Run Demo
+One can easily try the demo to synthesize data with PERSONA HUB by running:
+
+```
+bash demo_openai_synthesize.sh # using gpt4o to synthesize data with PERSONA HUB
+```
+
+or
+
+```
+bash demo_vllm_synthesize.sh # using open-sourced models to synthesize data with PERSONA HUB
+```
+
+Note that the data synthesis prompt templates we provide are for reference only. You can customize your desired prompts in `code/prompt_templates.py`.
+
 
 ## Citation
 If you find our work useful, please consider citing our paper:
