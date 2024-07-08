@@ -52,18 +52,6 @@ bash demo_vllm_synthesize.sh # using open-sourced models to synthesize data with
 
 Note that the data synthesis prompt templates we provide are for reference only. You can customize your desired prompts in `code/prompt_templates.py`.
 
-
-## Citation
-If you find our work useful, please consider citing our paper:
-```
-@article{chan2024scaling,
-  title={Scaling Synthetic Data Creation with 1,000,000,000 Personas},
-  author={Chan, Xin and Wang, Xiaoyang and Yu, Dian and Mi, Haitao and Yu, Dong},
-  journal={arXiv preprint arXiv:2406.20094},
-  year={2024}
-}
-```
-
 ## Contact
 Please email `xinchan@global.tencent.com` or `dyu@global.tencent.com`
 
