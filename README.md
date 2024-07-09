@@ -41,12 +41,14 @@ One can also quickly preview these data at [huggingface](https://huggingface.co/
 One can try the demo to synthesize data with PERSONA HUB by simply running:
 
 ```
+# ensure that you have installed openai (pip install openai) and configured the openai_api_key
 bash demo_openai_synthesize.sh # using gpt4o to synthesize data with PERSONA HUB
 ```
 
 or
 
 ```
+# ensure that you have installed transformers and vllm (pip install transformers vllm)
 bash demo_vllm_synthesize.sh # using open-sourced models to synthesize data with PERSONA HUB
 ```
 
