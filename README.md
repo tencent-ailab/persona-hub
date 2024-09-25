@@ -55,7 +55,7 @@ bash demo_vllm_synthesize.sh # using open-sourced models to synthesize data with
 Note that the data synthesis prompt templates we provide are for reference only. You can customize your desired prompts in `code/prompt_templates.py`.
 
 ## Contact
-Please email `xinchan@global.tencent.com` or `dyu@global.tencent.com`
+Please email `getao@global.tencent.com` or `dyu@global.tencent.com`
 
 ## Disclaimer
 PERSONA HUB can facilitate synthetic data creation at a billion-scale to simulate diverse inputs (i.e., use cases) from a wide variety of real-world users. If this data is used as input to query a target LLM to obtain its outputs at scale, there is a high risk that the LLM's knowledge, intelligence and capabilities will be dumped and easily replicated, thereby challenging the leading position of the most powerful LLMs. It is crucial to avoid misuse and ensure ethical and responsible application to prevent privacy violations and other ethical concerns.
