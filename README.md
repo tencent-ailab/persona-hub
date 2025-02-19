@@ -8,7 +8,7 @@
 </div>
 
 ## News
-
+- \[02/18/2025\] 🚀🚀🚀 Released [370,000,000 elite personas](https://huggingface.co/datasets/proj-persona/PersonaHub/tree/main/ElitePersonas), each possessing skills that rank in the top 1% or even the top 0.1% in certain areas.
 - \[07/08/2024\] 🚀🚀🚀 Added code to <a href="#run-demo">demo</a> persona-driven data synthesis using gpt-4o (openai) or open-sourced models (vllm)
 - \[06/30/2024\] 🚀🚀🚀 Initial announcement of the paper and initial release of PERSONA HUB and synthetic data samples
 
@@ -33,7 +33,8 @@ To facilitate research in persona-driven data synthesis, we are initially releas
 
 ### Persona Hub
 We also release a subset of our PERSONA HUB, including:
-* **200,000 personas**
+* **200,000 personas** (preview)
+* **370,000,000 elite personas** (released on Feb 18, 2025)
 
 One can also quickly preview these data at [huggingface](https://huggingface.co/datasets/proj-persona/PersonaHub).
 
